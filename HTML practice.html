@@ -135,5 +135,138 @@
         </table>
     </p>
 
+    <p>
+        <table width="50%" border="1" bordercolor="blue" cellpadding="5" cellspacing="5">
+            <tr>
+                <td colspan="2"> fruits</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>apple</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>2</td>
+                    <td>banana</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>orange</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>grapes</td>
+            </tr>
+        </table>
+    </p>
+
+    <p>
+        <h1>no-wrap+img+align</h1>
+        <table background="tablebg.jpg" width="50%" border="1" bordercolor="blue" cellpadding="5" cellspacing="5">
+            <tr>
+                <td colspan="2" nowrap > fruits Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit porro quos deserunt pariatur. Mollitia incidunt reiciendis corporis quisquam modi, hic iste doloremque minus nisi vel, magni aut distinctio corrupti necessitatibus.</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>apple</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>2</td>
+                    <td>banana</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>orange</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="right">grapes</td>
+            </tr>
+        </table>
+    </p>
+
+    <p>
+        <form name="Employement" action="send.php" method="post">
+            <table width="50%" border="2" bordercolor="red" cellpadding="2" cellspacing="2">
+                <tr>
+                    <td>Employement Application</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="fname" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="fname" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>
+                        <select name="Position" id="">
+                            <option value="AC">Accountant</option>
+                            <option value="CA">Cashier</option>
+                            <option value="SE">Software engineer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Job level</td>
+                    <td>
+                        <input type="checkbox" name="ft">Full-Time
+                        <input type="checkbox" name="pt">Part-Time
+                        <input type="checkbox" name="ct">Contract 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Experience level</td>
+                    <td>
+                        <select name="Experience Level" id="">
+                            <option value="B">Begin</option>
+                            <option value="I">Inter</option>
+                            <option value="E">Expert</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Employement Status</td>
+                    <td>
+                        <input type="radio" name="estatus" value="ep">Employed
+                        <input type="radio" name="estatus" value="up">unemployed
+                        <input type="radio" name="estatus" value="st">Student
+                    </td>
+                </tr>
+                <tr>
+                    <td>Additional Comments</td>
+                    <td>
+                        <textarea name="comments" id="" cols="50" rows="8"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="submit">
+                        <input type="reset" name="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </p>
+
+    
+        <h1>Iframes</h1>
+        <iframe src="https://www.google.com/" width="100%" height="50%">
+            <p>your browser doesn't support the iframe</p>
+        </iframe>
+        <iframe src="https://www.ask.com/" width="100%" height="50%">
+            <p>your browser doesn't support the iframe</p>
+        </iframe>
+
+
 </body>
 </html>
